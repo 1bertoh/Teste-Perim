@@ -29,6 +29,14 @@ You can use one of them `npm`, `yarn`, `pnpm`, `bun`, Example using `npm`:
 npm install
 ```
 
+### Crie o .env para conectar com o backend
+
+Insira a seguinte variável ao arquivo .env. Onde o domínio é o domínio do servidor django
+
+```bash
+VITE_API_URL=http://127.0.0.1:8000/api
+```
+
 ### Run the development server
 
 ```bash
