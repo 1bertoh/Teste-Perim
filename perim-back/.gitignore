@@ -1,0 +1,148 @@
+# Python
+################################################################################
+# Ambientes Virtuais
+/venv/
+/env/
+/ENV/
+/VENV/
+/.venv/
+/.env/
+/.python-version
+pipenv.patched.py
+
+# Arquivos de Bytecode e Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Arquivos de distribuição / build
+/build/
+/develop-eggs/
+/dist/
+/downloads/
+/eggs/
+/.eggs/
+/lib/
+/lib64/
+/parts/
+/sdist/
+/var/
+*.egg-info/
+.installed.cfg
+*.egg
+*.manifest
+*.spec
+
+# Banco de dados SQLite (se usado para desenvolvimento local)
+*.sqlite3
+*.db
+
+# Django
+# (Descomente se você não quiser versionar migrações de apps de terceiros)
+# */migrations/*[!__init__.py]
+# media/ (se os arquivos de mídia enviados pelo usuário não devem ser versionados)
+# staticfiles/ (se você coleta arquivos estáticos aqui e não quer versioná-los)
+
+# Flask
+instance/
+.webassets-cache
+
+# Arquivos de configuração e segredos (adicione seus arquivos específicos)
+.env
+.env.*
+!.env.example  # Mantenha o arquivo de exemplo, se houver
+config.ini
+secrets.py
+
+# Logs
+*.log
+logs/
+*.log.*
+
+# Arquivos de teste
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+nosetests.xml
+pytest.xml
+*.cover
+*.hypothesis/
+
+# Mypy cache
+.mypy_cache/
+
+# Ruff cache
+.ruff_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Microsoft VSC-python
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-workspace
+
+# PyCharm
+.idea/
+
+# Outros
+*.bak
+*.swp
+*.swo
+*~
+
+
+# React (Vite)
+################################################################################
+# Dependências
+/node_modules/
+
+# Arquivos de build de produção
+/dist/
+
+# Arquivos de log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Arquivos de ambiente (exceto exemplos)
+.env
+.env.local
+.env.*.local
+.env.development
+.env.production
+!.env.example
+!.env.sample
+
+# Cache do Vite
+.vite/
+# (Vite <2.9)
+# .vite-root
+
+# Arquivos de teste
+/coverage/
+*.lcov
+
+# Arquivos de IDE e Editores
+.idea/
+.vscode/*
+!.vscode/settings.json # Permite configurações do VSCode específicas do projeto, se desejado
+!.vscode/extensions.json # Permite recomendações de extensões do VSCode
+# Adicione outros diretórios de IDEs se necessário (e.g., .project, .classpath para Eclipse)
+
+# Arquivos temporários e de sistema operacional
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+
+# Arquivos específicos do projeto (adicione aqui se necessário)
+################################################################################
+# Exemplo:
+# /meu_diretorio_customizado_de_build/
+# /meu_arquivo_secreto.json
